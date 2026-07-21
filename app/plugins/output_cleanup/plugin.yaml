@@ -1,0 +1,4 @@
+name: output_cleanup
+version: "1.0.0"
+description: "Post-generation output cleaner. Enforces SOUL.md R3 (no markdown) and R27 (no tech-speak) deterministically after every LLM reply. Pure string ops — zero latency, no LLM calls. Strips markdown emphasis/headers/rules/code-fences, rewrites R27 banned tech terms to plain English, redacts bare file paths and internal module names. Gated behind OUTPUT_CLEANUP_ENABLED env flag (default ON)."
+author: Demo Owner / save AI

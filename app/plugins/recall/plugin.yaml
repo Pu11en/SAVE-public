@@ -1,0 +1,11 @@
+name: recall
+version: "1.0.0"
+description: "Letta-style tiered memory for save AI. Working memory = current Hermes session. Archival = curated MEMORY.md. Recall = Postgres full conversation history with FTS + per-user scoping. Auto-ingests every inbound + outbound message via pre_llm_call / post_llm_call hooks. Zero new infra cost — reuses Drew's existing Postgres (DATABASE_URL)."
+author: Demo Owner / save AI
+provides_tools:
+  - recall_search
+  - recall_recent
+  - recall_last_conversation
+  - recall_summarize_window
+  - recall_facts_add
+  - recall_facts_search

@@ -1,0 +1,9 @@
+{
+  "name": "save-public",
+  "version": "1.0.0",
+  "description": "Public-safe production agent reliability snapshot with synthetic tests.",
+  "license": "ISC",
+  "scripts": {
+    "test": "python3 -m pytest -q"
+  }
+}
